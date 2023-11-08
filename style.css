@@ -1,0 +1,71 @@
+html,
+body {
+  background-color: #454545;
+  color: yellow;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: fantasy;
+}
+h2 {
+  text-transform: uppercase;
+}
+.my-nav > #h2 {
+  text-align: center;
+  font-size: 15px;
+  border-bottom: dotted;
+  background-color: #252525;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 1.3px 1.5px 2px 1.5px #fff;
+}
+.my-nav {
+  position: fixed;
+  width: 20vw;
+  min-width: 18vw;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.my-nav ul {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 80%;
+}
+.my-nav ul li {
+  list-style-type: square;
+  position: relative;
+}
+
+.my-nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+.viewport-doc {
+  padding-left: 25vw;
+  display: absolute;
+  line-height: 1.5rem;
+  color: white;
+}
+code {
+  display: block;
+  position: relative;
+  background-color: #161616;
+  padding: 20px;
+  width: 30vw;
+  text-align: center;
+  margin-left: 5vw;
+}
+div > .ref {
+  color: rgb(255, 64, 88);
+  font-size: 20px;
+  font-family: cursive;
+  background: #858585;
+  width: 30vw;
+  padding: 17px;
+}
